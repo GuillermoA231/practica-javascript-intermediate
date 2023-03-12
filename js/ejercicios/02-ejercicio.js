@@ -13,6 +13,12 @@ let nota;
 
 do {
   nota = prompt("Introduce la nota (de 0 a 10):");
+
+  if (isNaN(nota)) {
+    alert("Introduce un número válido");
+  } else if (nota < 0 || nota > 10) {
+    alert("Número erróneo");
+  }
 } while (isNaN(nota) || nota < 0 || nota > 10);
 
 nota = parseFloat(nota);
