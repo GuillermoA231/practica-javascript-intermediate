@@ -1,4 +1,5 @@
-/*15- Realiza un script que cuente el número de vocales que tiene un texto. */
+function ejercicio15(){
+  /*15- Realiza un script que cuente el número de vocales que tiene un texto. */
 
 let frase;
 let vocales = "";
@@ -19,3 +20,4 @@ for (let i = 0; i < frase.length; i++) {
   }
 }
 console.log(vocales.length);
+}

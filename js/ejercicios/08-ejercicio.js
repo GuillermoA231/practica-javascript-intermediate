@@ -1,4 +1,5 @@
-/*
+function ejercicio8(){
+  /*
 8- Crea script para generar pirámide siguiente con los números del 1 al número que indique el usuario (no mayor de 50) 
 
 1
@@ -32,3 +33,5 @@ for (let i = 0; i <= num; i++) {
 
 // Imprime la pirámide
 console.log(piramide);
+
+}

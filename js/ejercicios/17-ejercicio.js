@@ -1,4 +1,5 @@
-/*17- Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado*/
+function ejercicio17(){
+  /*17- Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado*/
 let frase;
 let primeraVocal;
 do {
@@ -20,3 +21,4 @@ for (let i = 0; i < frase.length; i++) {
   }
 }
 console.log(`la posición de la primera vocal se encuentra en la letra numero ${primeraVocal+1}.\nFRASE: ${frase}.`);
+}

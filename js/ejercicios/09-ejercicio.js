@@ -1,4 +1,5 @@
-let numero = 0;
+function ejercicio9(){
+  let numero = 0;
 let contador = 0;
 
 for (let i = 1; i < 501; i++) {
@@ -21,4 +22,6 @@ for (let i = 1; i < 501; i++) {
       break;
   }
   contador++;
+}
+
 }
