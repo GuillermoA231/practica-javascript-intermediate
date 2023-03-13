@@ -8,8 +8,8 @@
 8-9: Notable
 10: Sobresaliente
 */
-
-let nota;
+function ejercicio2(){
+  let nota;
 
 do {
   nota = prompt("Introduce la nota (de 0 a 10):");
@@ -35,4 +35,6 @@ if (nota >= 0 && nota <= 2) {
   alert("Notable");
 } else if (nota == 10) {
   alert("Sobresaliente");
+}
+
 }
