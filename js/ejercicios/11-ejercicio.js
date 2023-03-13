@@ -8,5 +8,5 @@ for (let i = 0; i < 3; i++) {
 let edades = nombreYApellido.map(persona =>persona.edad);
 let edadMasAlta = Math.max(...edades);
 let personaMasVieja = nombreYApellido.find(persona => persona.edad == edadMasAlta);
-console.log(personaMasVieja);
+console.log(personaMasVieja.nombre);
 }
