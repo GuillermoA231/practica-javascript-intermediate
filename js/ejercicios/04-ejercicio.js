@@ -17,7 +17,7 @@ do {
         sumaNum = sumaNum + num;
     }
   }
-} while (isNaN(num));
+} while (isNaN(num) || num !== null);
 
 alert("La suma de los números es: " + sumaNum);
 
