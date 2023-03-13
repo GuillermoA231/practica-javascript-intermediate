@@ -4,10 +4,8 @@ function ejercicio16(){
 
 let texto = prompt("introduzca su texto");
 const arrayTexto = texto.split("");
-console.log(arrayTexto);
 
 const revertirArray = arrayTexto.reverse();
-console.log(revertirArray);
 
 const unirArray =revertirArray.join(``);
 console.log(unirArray);
